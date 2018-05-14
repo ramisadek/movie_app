@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.ayamovie.movieapp.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/all_favoriate"
+        android:layout_margin="30dp"
+        android:textAllCaps="false"
+        android:text="@string/favorites"/>
+    <GridView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:numColumns="2"
+
+    android:id="@+id/grid"
+
+    tools:context="com.ayamovie.movieapp.MainActivity"
+    >
+</GridView>
+
+</LinearLayout>
